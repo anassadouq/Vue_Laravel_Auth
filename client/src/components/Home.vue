@@ -1,4 +1,6 @@
 <script setup>
+      import Navbar from '@/components/Navbar.vue';
+
     import { useRouter } from 'vue-router';
 
     const router = useRouter();
@@ -9,5 +11,6 @@
 </script>
 
 <template>
-    <h1 class="bg-red-500">Home page</h1>
+    <Navbar/>
+    <h1>Home page</h1>
 </template>
